@@ -1,0 +1,92 @@
+s-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Credits = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+
+--Properties:
+
+Credits.Name = "Credits"
+Credits.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Credits.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = Credits
+Frame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Frame.BorderColor3 = Color3.fromRGB(85, 85, 127)
+Frame.BorderSizePixel = 2
+Frame.Position = UDim2.new(0.412225693, 0, 0.477737665, 0)
+Frame.Size = UDim2.new(0, 317, 0, 306)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.116719246, 0, -0.000836041989, 0)
+TextLabel.Size = UDim2.new(0, 243, 0, 43)
+TextLabel.Font = Enum.Font.Code
+TextLabel.Text = "CREDITS"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 30.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.221363187, 0, 0.139686838, 0)
+TextLabel_2.Size = UDim2.new(0, 175, 0, 29)
+TextLabel_2.Font = Enum.Font.Code
+TextLabel_2.Text = "Credits to.."
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 20.000
+TextLabel_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.221363187, 0, 0.299817562, 0)
+TextLabel_3.Size = UDim2.new(0, 175, 0, 29)
+TextLabel_3.Font = Enum.Font.Code
+TextLabel_3.Text = "Credits to vlad script's"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 20.000
+TextLabel_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.221014112, 0, 0.391320854, 0)
+TextLabel_4.Size = UDim2.new(0, 175, 0, 29)
+TextLabel_4.Font = Enum.Font.Code
+TextLabel_4.Text = "for making the UI, and main script."
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 15.000
+TextLabel_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.221014097, 0, 0.620079041, 0)
+TextLabel_5.Size = UDim2.new(0, 175, 0, 29)
+TextLabel_5.Font = Enum.Font.Code
+TextLabel_5.Text = "Credits to the owners for these scripts"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel_6.Parent = Frame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.221014097, 0, 0.688706517, 0)
+TextLabel_6.Size = UDim2.new(0, 175, 0, 29)
+TextLabel_6.Font = Enum.Font.Code
+TextLabel_6.Text = "as these scripts contained in CMDS."
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
